@@ -52,7 +52,9 @@
                 span なにかを作っているオタク
             v-card-actions
               v-btn(flat color="#42A5F5" href="https://twitter.com/naporin24690") Twitter
-              v-btn(flat color="black" href="https://naporitan.hatenablog.com/") blog
+              v-btn(flat color="black" href="https://github.com/naporin0624/sanAR") GitHub
+              v-btn(flat color="green" href="https://naporitan.hatenablog.com/") blog
+
 </template>
 
 <script>
