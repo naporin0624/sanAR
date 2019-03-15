@@ -20,7 +20,7 @@
                 span Android使えるかわからん・・・・・
             v-card-actions
               v-btn(flat, color="purple" href="/AR") Let's Go!! AR
-              v-btn(flat, color="blue" href="/WebRTC") Let's Go!! WebRTC
+              v-btn(flat, color="blue" href="/WebRTC" disabled) Let's Go!! WebRTC
         v-flex(md4 xs12)
           v-card
             v-img.white--text(height="200px", src="https://pbs.twimg.com/profile_banners/968546584337072128/1540878933/1500x500")
