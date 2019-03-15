@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home.vue'
 import AR from '@/views/AR.vue'
+import WebRTC from '@/views/WebRTC.vue'
 
 Vue.use(Router)
 
@@ -16,5 +17,9 @@ export default new Router({
     path: '/AR',
     name: 'AR',
     component: AR
+  }, {
+    path: '/WebRTC',
+    name: 'WebRTC',
+    component: WebRTC
   }]
 })
