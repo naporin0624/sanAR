@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home.vue'
-import IOS from '@/views/IOS.vue'
+import AR from '@/views/AR.vue'
 
 Vue.use(Router)
 
@@ -13,8 +13,8 @@ export default new Router({
     name: 'Home',
     component: Home
   }, {
-    path: '/IOS',
-    name: 'IOS',
-    component: IOS
+    path: '/AR',
+    name: 'AR',
+    component: AR
   }]
 })
