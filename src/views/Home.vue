@@ -4,7 +4,7 @@
       v-layout(row wrap)
         v-flex(md4 xs12)
           v-card
-            v-img.white--text(height="200px" :src="require('../assets/AR.png')")
+            v-img.white--text(height="200px" :src="require('@/assets/AR.png')")
               v-container(fill-height, fluid)
                 v-layout(fill-height)
                   v-flex(xs12 align-end flexbox_)
