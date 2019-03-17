@@ -23,7 +23,6 @@ takePhotoBtn.addEventListener('click', function (e) {
 
 // 削除ボタン
 deletePhotoBtn.addEventListener('click', function (e) {
-
   e.preventDefault()
 
   //  スナップショットを隠す
@@ -33,7 +32,6 @@ deletePhotoBtn.addEventListener('click', function (e) {
   //  削除ボタンと保存ボタン無効
   deletePhotoBtn.classList.add('disabled')
   downloadPhotoBtn.classList.add('disabled')
-
 })
 
 // スナップショットを撮る
