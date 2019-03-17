@@ -1,0 +1,55 @@
+.ui {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 15px 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+}
+.ui a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  line-height: 100%;
+  color: #303030;
+  margin: 10px 3px;
+  border-radius: 50%;
+  position: relative;
+
+}
+.ui a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ui a:active {
+  color: #ff0000;
+}
+
+#snap {
+  max-width: 100%;
+  height: auto;
+  display: block;;
+  visibility: hidden;
+  width: 20%;
+  position: absolute;
+  /* margin-bottom: auto; */
+  bottom: 10px;
+  /* border: white; */
+  border: 5px #FFF solid;
+  border-radius: 10px 10px 10px 10px;
+}
+.ui a.disabled {
+  pointer-events: none;
+  color: #cccccc;
+}
+#snap.visible {
+  visibility: visible;
+}
