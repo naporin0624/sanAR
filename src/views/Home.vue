@@ -14,8 +14,24 @@
               br
               span WebARの方はマーカーが必要だよ！
             template(v-slot:action)
-              v-btn(flat, color="purple" to="/AR") Let's Go!! iOS
-              v-btn(flat, color="blue" to="/WebAR") Let's Go!! WebAR
+              v-btn(
+                flat
+                color="purple"
+                to="/AR"
+                block
+                small
+                round
+                ripple
+              ) Let's Go!! iOS
+              v-btn(
+                flat
+                color="blue"
+                to="/WebAR"
+                block
+                small
+                round
+                ripple
+              ) Let's Go!! WebAR
         v-flex(md4 xs12)
           Card(
             img="https://pbs.twimg.com/profile_banners/968546584337072128/1540878933/1500x500"
@@ -26,10 +42,24 @@
               br
               span 勝手に作っちゃってごめんなさい
               br
-              span いつも楽しく配信見させていただいています！ありがとうございます！
+              span いつも楽しく配信見させていただいています！ ありがとうございます！
             template(v-slot:action)
-              v-btn(flat color="#42A5F5" href="https://twitter.com/sana_natori") Twitter
-              v-btn(flat color="red" href="https://www.youtube.com/channel/UCIdEIHpS0TdkqRkHL5OkLtA") YouTube
+              v-btn(
+                flat
+                color="#42A5F5"
+                small
+                ripple
+                round
+                href="https://twitter.com/sana_natori"
+              ) Twitter
+              v-btn(
+                flat
+                color="red"
+                small
+                ripple
+                round
+                href="https://www.youtube.com/channel/UCIdEIHpS0TdkqRkHL5OkLtA"
+              ) YouTube
         v-flex(md4 xs12)
           Card(
             img="https://pbs.twimg.com/profile_banners/1060006096469803008/1550302027/1500x500"
@@ -40,9 +70,30 @@
               br
               span なにかを作っているオタク
             template(v-slot:action)
-              v-btn(flat color="#42A5F5" href="https://twitter.com/naporin24690") Twitter
-              v-btn(flat color="black" href="https://github.com/naporin0624/sanAR") GitHub
-              v-btn(flat color="green" href="https://naporitan.hatenablog.com/") blog
+              v-btn(
+                flat
+                color="#42A5F5"
+                small
+                ripple
+                round
+                href="https://twitter.com/naporin24690"
+              ) Twitter
+              v-btn(
+                flat
+                color="black"
+                small
+                ripple
+                round
+                href="https://github.com/naporin0624/sanAR"
+              ) GitHub
+              v-btn(
+                flat
+                color="green"
+                small
+                ripple
+                round
+                href="https://naporitan.hatenablog.com/"
+              ) blog
 
 </template>
 

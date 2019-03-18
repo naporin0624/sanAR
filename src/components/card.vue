@@ -1,7 +1,7 @@
 <template lang="pug">
   v-card
     v-img.white--text(height="200px" :src="img")
-      v-container(fill-height, fluid)
+      v-container(fill-height fluid)
         v-layout(fill-height)
           v-flex(xs12 align-end flexbox_)
             span.headline.font-weight-bold {{cardName}}
@@ -20,6 +20,7 @@ export default {
       default: require('@/assets/AR.png')
     },
     cardName: {
+      type: String,
       default: 'hogehoge'
     }
   }

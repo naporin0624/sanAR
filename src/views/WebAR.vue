@@ -36,7 +36,7 @@
                   color="red"
                   href="ARjs.html"
                 ) ARカメラサイトに行く
-        v-btn(to="/") トップに戻る
+        v-btn(to="/") ホームに戻る
 </template>
 
 <script>
